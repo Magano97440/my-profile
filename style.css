@@ -1,0 +1,129 @@
+/* Colors and fonts */
+
+body {
+	background: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	font-family: "Lora", serif;
+	font-size: 20px;
+}
+
+
+h1, h2 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 1300;
+
+
+
+
+}
+
+h1 {
+	color: red;
+	font-size: 56px;
+}
+
+
+
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 34px;
+	font-weight: lighter;
+}
+
+a {
+	font-family:"Lora", serif ;
+	font-weight: 1000;
+	text-decoration: none;
+	color: red;
+
+}
+
+a:hover {
+	color: grey;
+
+}
+
+#pfp {
+	width: 250px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px black;
+	border: 5px solid darkred;
+	
+	
+}
+
+
+
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 760px) {
+		.container {
+			width: 600px;
+		}
+}
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+		.container {
+			width: 400px;
+		}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0,10px,30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-red {
+	background-color: red;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+	
+.btn-red:hover{
+	background-color: grey;
+	color: white;
+}	
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 35px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
